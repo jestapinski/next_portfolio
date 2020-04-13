@@ -7,8 +7,13 @@ interface Colors {
   accent: string;
 }
 
+interface Padding {
+  default: string;
+}
+
 interface Theme {
   colors: Colors;
+  padding: Padding;
 }
 
 const colors: Colors = {
@@ -17,8 +22,13 @@ const colors: Colors = {
   accent: "#99DDFF",
 };
 
+const padding: Padding = {
+  default: "16px",
+};
+
 const theme: Theme = {
   colors,
+  padding,
 };
 
 const Layout: React.FC = ({ children }) => (

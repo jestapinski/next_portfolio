@@ -9,11 +9,13 @@
   },
   "dependencies": {
     "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
     "emotion": "^10.0.27",
     "emotion-theming": "^10.0.27",
     "next": "9.3.4",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-icon-base": "^2.1.2"
   },
   "devDependencies": {
     "@types/react": "^16.9.34",

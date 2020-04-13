@@ -1,8 +1,10 @@
 import Head from "next/head";
 import Layout from "../components/layout.tsx";
+import Nav from "../components/nav.tsx";
 
 const Home = () => (
   <Layout>
+    <Nav />
     <div className="container">
       <Head>
         <title>Create Next App</title>
