@@ -15,6 +15,8 @@ const StyledNav = styled("div")`
   display: flex;
   justify-content: space-between;
   height: 70px;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: ${({ theme }) => theme.padding.default};
 `;
 
