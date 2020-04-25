@@ -4,7 +4,8 @@ import { ThemeProvider } from "emotion-theming";
 interface Colors {
   primary: string;
   secondary: string;
-  accent: string;
+  accentWarm: string;
+  accentCool: string;
 }
 
 interface Theme {
@@ -12,9 +13,10 @@ interface Theme {
 }
 
 const colors: Colors = {
-  primary: "#00458B",
-  secondary: "#3FD2C7",
-  accent: "#99DDFF",
+  primary: "#38618C",
+  secondary: "#FFE066",
+  accentWarm: "#FF5964",
+  accentCool: "#35A7FF",
 };
 
 const theme: Theme = {
