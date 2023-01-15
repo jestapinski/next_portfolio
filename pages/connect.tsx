@@ -1,12 +1,12 @@
 import type { NextPage } from "next";
 import Layout from "../components/layout";
 
-const Home: NextPage = () => {
+const Connect: NextPage = () => {
   return (
     <Layout>
-      <h1>Hello World</h1>
+      <h1>Connect</h1>
     </Layout>
   );
 };
 
-export default Home;
+export default Connect;
